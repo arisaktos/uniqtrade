@@ -1,0 +1,141 @@
+body
+{background-color: #060606;
+color: #fff;
+font-family: 'Roboto', sans-serif;
+line-height: 2;
+}
+
+h1
+{font-size: 4rem}
+
+#top-banner-section {
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.4))), url('../img/uniqtrade-top-banner.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url('../img/uniqtrade-top-banner.jpg');
+        background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #f45228;
+    height: 70vh;
+     display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+a
+{color: #fff;}
+
+a:hover
+{color: #df2108;
+text-decoration: none;}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    margin-right: 15px;
+    text-transform: capitalize;
+        font-size: 1.4rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:visited,
+.navbar-light .navbar-nav .nav-link:active,
+.navbar-light .navbar-nav .nav-link:link
+{color: white;}
+
+
+
+
+
+.language-menu-wrapper
+{position: fixed;
+right: 20px;
+}
+
+
+.dropdown-menu
+{
+    text-transform: capitalize;
+    padding: 0px;
+}
+
+.dropdown-item
+{    padding: .5rem 1.5rem;}
+
+.dropdown-item img
+{padding-right: 10px;}
+
+.dropdown-item:hover
+{background-color: #dcdcdc;
+}
+
+.dropdown-menu 
+{border-radius: 0px;}
+
+.nav-bg {
+    background-color: #df2108;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+
+}
+
+.advantages ul li
+{margin-bottom: 10px;}
+
+.advantages ul
+{
+    background-color: #df2108;
+    padding: 10px 15px 10px 40px;
+   
+}
+
+.advantages img
+{
+    max-width: 100%;
+  
+}
+
+.nav-bg-remove {
+    background: none;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+
+}
+
+.our-offer-list ul
+{margin-bottom: 50px;}
+
+.extra-bottom
+{margin-bottom: 60px;}
+
+section
+{margin: 100px 0px;}
+
+h2
+{color: #df2108;
+margin-bottom: 30px;
+font-size:2.3rem;}
+
+#contact
+{background-color: #df2108;
+padding: 50px 0px;
+margin-bottom: 0px;}
+
+#contact a:hover
+{color: #060606}
+
+#contact h2
+{color: #fff;}
+
+.navbar-toggler
+{background-color: #fff;}
+
+@media (max-width: 576px) {
+    .language-menu-wrapper
+    {right: auto;
+    position: inherit;}
+}
